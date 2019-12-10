@@ -11,7 +11,7 @@
     <text class="user-motto">{{motto}}</text>
   </view>
   <view>
-    我修改了dev的文件
+    我修改了index的文件
   </view>
     
 </view>
