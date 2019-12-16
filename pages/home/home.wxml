@@ -1,15 +1,2 @@
 
-    <swiper class="swiper"
-            indicator-dots="true"
-            indicator-color="white"
-            indicator-active-color="#ff5777"
-            circular="true"
-            autoplay="true"
-            interval="2500"
-            duration="1500">
-        <block wx:for="{{banners}}" wx:key="{{index}}" wx:for-item="imgList">
-            <swiper-item>
-                <image src="{{imgList.image}}" alt="" mode="widthFix"/>
-            </swiper-item>
-        </block>
-    </swiper>
+    <w-swiper list="{{banners}}"/>
