@@ -1,0 +1,13 @@
+<view class="goods">
+  <block wx:for="{{goods}}" wx:key="{{index}}">
+  <view class="goods-item">
+    <image class="" src="{{item.image}}" mode="widthFix"/>
+    <view class="desc-info">
+      <text class="title">
+        照片标题
+      </text>
+    </view>
+  </view>
+  </block>
+</view>
+  

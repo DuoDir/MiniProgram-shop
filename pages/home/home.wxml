@@ -1,2 +1,18 @@
+<!-- 轮播图展示 -->
+<w-swiper list="{{banners}}"/>
 
-    <w-swiper list="{{banners}}"/>
+<!-- 推荐数据展示 -->
+<w-recommend recommend="{{recommends}}" bind:imageload="handleImageLoad"/>
+
+<!-- 本周流行 -->
+<w-popular/>
+
+<!-- tab -->
+<w-tab class="{{isTabFixed?'fixed':''}}"
+       id="tab-control" 
+       titles="{{titlelist}}"/>
+<!-- 为了占位用的 -->
+<w-tab wx:if="{{isTabFixed}}" 
+       titles="{{titlelist}}"/>
+<!-- 展示图片 -->
+<w-goods goods="{{goods[currentType].list}}"/> 

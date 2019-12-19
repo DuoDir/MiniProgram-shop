@@ -1,0 +1,8 @@
+.fixed{
+    position:fixed;
+    top:0rpx;
+    left:0rpx;
+    right:0rpx;
+    bottom:0rpx;
+    z-index:1;
+}

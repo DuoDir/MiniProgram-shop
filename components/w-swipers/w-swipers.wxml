@@ -7,8 +7,8 @@
         interval="2500"
         duration="1500">
     <block wx:for="{{list}}" wx:key="{{index}}" wx:for-item="imgList">
-        <swiper-item>
-            <image src="{{imgList.image}}" alt="" mode="widthFix"/>
+        <swiper-item class="swiper-item">
+            <image src="{{imgList.image}}"  alt="" mode="widthFix"/>
         </swiper-item>
     </block>
 </swiper>

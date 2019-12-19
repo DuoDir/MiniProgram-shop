@@ -1,0 +1,26 @@
+.goods{
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+.goods-item{
+    width:48%;
+    padding-left:1%;
+    padding-bottom:85rpx;
+    text-align:center;
+    position:relative;
+}
+.goods-item image{
+    width:100%;
+    border-radius:10rpx;
+}
+.desc-info{
+    position:absolute;
+    left:0rpx;
+    right:0rpx;
+    bottom:10rpx;
+
+}
+.title{
+    font-size:30rpx;
+}

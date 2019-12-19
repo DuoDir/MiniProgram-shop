@@ -1,6 +1,10 @@
 {
     "navigationBarTitleText":"购物车",
     "usingComponents":{
-        "w-swiper":"/components/w-swipers/w-swipers"
+        "w-swiper":"/components/w-swipers/w-swipers",
+        "w-recommend":"/pages/home/cpt/w-recomend/w-recomend",
+        "w-popular":"/pages/home/cpt/w-popular/w-popular",
+        "w-tab":"/components/w-tab/w-tab",
+        "w-goods":"/components/w-showimg/w-showimg"
     }
 }
